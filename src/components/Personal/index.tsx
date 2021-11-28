@@ -1,12 +1,14 @@
 import React, {FC} from 'react';
 import Sidebar from "./Sidebar";
+import Content from "./Content";
 
-const Area: FC = () => {
+const Personal: FC = () => {
     return (
-        <div className="area">
+        <div className="personal">
             <Sidebar/>
+            <Content/>
         </div>
     );
 };
 
-export default Area;
+export default Personal;
